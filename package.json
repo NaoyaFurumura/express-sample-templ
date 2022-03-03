@@ -1,0 +1,22 @@
+{
+  "name": "node-temp",
+  "version": "1.0.0",
+  "description": "this is template for creating node project",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon -L"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "14.17.19",
+    "express": "^4.17.3",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.6.0",
+    "ts-node-dev": "^1.1.8"
+  }
+}
