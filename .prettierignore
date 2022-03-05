@@ -1,0 +1,9 @@
+/dist
+node_modules
+package.json
+package-lock.json
+.node-version
+tsconfig.json
+yarn-error.log
+yarn.lock
+nodemon.json
