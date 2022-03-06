@@ -17,13 +17,6 @@ module.exports = {
     project: './tsconfig.json',
   },
   plugins: ['@typescript-eslint'],
-  ignorePatterns: [
-    '.eslintrc.*',
-    'jest.config.*',
-    'dist/',
-    'node_modules',
-    '.husky/',
-    '.github/',
-  ],
+  ignorePatterns: ['.eslintrc.*', 'jest.config.*', 'dist/', 'node_modules'],
   rules: {},
 };
