@@ -6,9 +6,9 @@
   "scripts": {
     "watch": "nodemon -L",
     "eslint": "eslint .",
-    "check:format":"prettier --check '*.{ts,js,json}'",
+    "check:format":"prettier --check .",
     "eslint:fix": "eslint . --fix",
-    "format": "prettier --write '*.{ts,js,json}'",
+    "format": "prettier --write .",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
     "test": "jest"

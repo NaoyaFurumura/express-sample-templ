@@ -1,7 +1,7 @@
 describe('test', () => {
   async function delay(n: number) {
     return new Promise(function (resolve) {
-      setTimeout(resolve, n * 1000);
+      setTimeout(resolve, n * 1200);
     });
   }
   test.concurrent('test', async () => {
