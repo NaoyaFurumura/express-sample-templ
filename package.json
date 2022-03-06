@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "watch": "nodemon -L",
-    "eslint": "eslint ./src/**/*.ts",
-    "check:format":"prettier --check 'src/**/*.{ts,js,json}'",
-    "eslint:fix": "eslint ./src/**/*.ts --fix",
-    "format": "prettier --write 'src/**/*.{ts,js,json}'",
+    "eslint": "eslint .",
+    "check:format":"prettier --check '*.{ts,js,json}'",
+    "eslint:fix": "eslint . --fix",
+    "format": "prettier --write '*.{ts,js,json}'",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
     "test": "jest"
