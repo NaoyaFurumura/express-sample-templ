@@ -9,3 +9,4 @@ it is helpfull for learning something and confirm the some tech, using express p
   - nodemon
   - typescript
   - test/jest
+  - github/actions run test code
