@@ -6,6 +6,7 @@
   "scripts": {
     "watch": "nodemon -L",
     "eslint": "exlint ./src/**/*.ts",
+    "check:format":"prettier --check 'src/**/*.{ts,js,json}'",
     "eslint:fix": "eslint ./src/**/*.ts --fix",
     "format": "prettier --write 'src/**/*.{ts,js,json}'",
     "prepare": "husky install",
